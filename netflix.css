@@ -18,6 +18,7 @@ html {
 }
 h4 {
     font-style: italic;
+    font-size: calc(16px + 1vw);
 }
 a {
     text-decoration: none;
