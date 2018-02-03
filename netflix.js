@@ -32,11 +32,11 @@ function scrolled(o) {
 // (+4px when pointer hovered over enlarged photo)
 // end: 579 3757 4334   4336 - 2
 
-//    // e.pageX
-//    // pageXOffset
-//    // scrollWidth
-//    // innerWidth
+// e.pageX
+// pageXOffset
+// scrollWidth
+// innerWidth
 
-// // e.preventDefault();
-//     e.getBoundingClientRect();
-//     el.left + window.scrollX
+//  e.preventDefault();
+//  e.getBoundingClientRect();
+//  el.left + window.scrollX
