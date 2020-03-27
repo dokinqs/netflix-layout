@@ -1,159 +1,188 @@
-<html>
-<head>
-<meta name="author" content="Karen Zhao">
-<meta charset="UTF-8">
-<link rel="stylesheet" href="netflix.css">
-<title>Netflix Scroll</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-<div id="wrapper">
-  
-  <span id="controlL" class="left-controls">
-    <button id="arrow-left">&lt;</button>
-  </span>
-  
-  <div class="title">NETFLIX FAVORITE MOVIES</div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karen Zhao">
+    <title>Netflix Scroll</title>
+    <link rel="stylesheet" type="text/css" href="netflix.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed" />
+    <link rel="shortcut icon" type="image/png" href="https://logo.clearbit.com/netflix.com" />
+  </head>
 
+  <body>
+    <div id="wrapper">
 
-  <!-- <div id="module-section" onscroll="xPos()"> -->
-  <div id="module-section" onscroll="scrolled(this)">
-   <ul id="content">
-     
-    
-    <li class="card">
-        <div class="inside">
-            <img src="https://www.warnerbros.com/sites/default/files/styles/key_art__211x316_/public/inception_keyart.jpg?itok=zsvVVDi10">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                Life is but a Dream
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://static.comicvine.com/uploads/original/0/42/868731-the_dark_knight_movie_poster_joker.jpg">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                Why So Serious?
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-              <img src="https://www.movieposter.com/posters/archive/main/112/MPW-56219">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                Take the Red Pill
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_UY1200_CR64,0,630,1200_AL_.jpg">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                There's a Place I Found, I'd Like to Show You
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://i.imgur.com/7Du30vM.jpg">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                Rage Against the Dying of the Light
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://www.onthisday.com/images/articles/titanic-the-movie.jpg">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                You are Here in my Heart
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-        <img src="https://vignette.wikia.nocookie.net/harrypotter/images/6/6e/Harry-potter-and-the-order-of-the-phoenix.jpg/revision/latest?cb=20101208193622">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                After All this Time? ... Always
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/416OXSomVHL.jpg">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                This Is SPARTAAA
-            </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Tell-Tale_%28film_poster%29.jpg/220px-Tell-Tale_%28film_poster%29.jpg">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                Just Liked the Poster Design
-            </div>
-        </div>
-     </li>
-     <li class="card">
-        <div class="inside">
-            <img src="https://i.pinimg.com/originals/99/9a/84/999a842d362f9b2689a9922db2f10a6e.jpg">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
-                Nice Cover Idk Movie
-            </div>
+      <span id="controlL" class="left-controls">
+        <button id="arrow-left">&lt;</button>
+      </span>
+
+      <div class="title">
+        NETFLIX FAVORITE MOVIES
       </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://www.curtainfactoryoutlet.co.uk/assets/curtainfactory/images/cover-photo-350x350.png">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
+
+      <!-- <div id="module-section" onscroll="xPos()"> -->
+      <!-- div id="module-section" onscroll="scrolled(this)" -->
+      <div id="module-section">
+        <ul id="content">
+
+          <li class="card">
+            <div class="inside">
+              <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Inception" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  Life is but a Dream
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://static.comicvine.com/uploads/original/0/42/868731-the_dark_knight_movie_poster_joker.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/The_Dark_Knight_(film)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  Why So Serious?
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/220px-The_Matrix_Poster.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/The_Matrix_(franchise)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  Take the Red Pill
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_UY1200_CR64,0,630,1200_AL_.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Oblivion_(2013_film)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  There's a Place I Found, I'd Like to Show You
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://i.imgur.com/7Du30vM.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  Rage Against the Dying of the Light
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://www.onthisday.com/images/articles/titanic-the-movie.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Titanic_(film)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  You are Here in my Heart
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://vignette.wikia.nocookie.net/harrypotter/images/6/6e/Harry-potter-and-the-order-of-the-phoenix.jpg/revision/latest?cb=20101208193622">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Harry_Potter_(film_series)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  After All this Time? ... Always
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://images-na.ssl-images-amazon.com/images/I/416OXSomVHL.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/300_(film)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  This Is SPARTAAA
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Tell-Tale_%28film_poster%29.jpg/220px-Tell-Tale_%28film_poster%29.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Tell-Tale_(film)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  Just Liked the Poster Design
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://i.pinimg.com/originals/99/9a/84/999a842d362f9b2689a9922db2f10a6e.jpg">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/The_Dark_Tower_(2017_film)" target="blank">
+              <div class="tile__details">
+                <div class="tile__title">
+                  Nice Cover Idk Movie
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://www.curtainfactoryoutlet.co.uk/assets/curtainfactory/images/cover-photo-350x350.png">
+            </div>
+            <div class="tile__details">
+              <div class="tile__title">
                 Movie Title Here . . .
+              </div>
             </div>
-        </div>
-    </li>
-    <li class="card">
-        <div class="inside">
-            <img src="https://placehold.it/350x150">
-        </div>
-        <div class="tile__details">
-            <div class="tile__title">
+          </li>
+          <li class="card">
+            <div class="inside">
+              <img src="https://placehold.it/350x150">
+            </div>
+            <div class="tile__details">
+              <div class="tile__title">
                 Maybe Shouldn't Have Made This Square
+              </div>
             </div>
-        </div>
-    </li>
-    
-   </ul>
- </div>
+          </li>
 
-<span id="controlR" class="right-controls">
-    <button id="arrow-right">&gt;</button>
-</span>
-  
-<h4>You mustn't be afraid to dream a little bigger, darling.</h4>  
-<p><a href="https://www.github.com/dokinqs">K a r e n &nbsp; Z h a o</a></p>
-</div>
+        </ul>
+      </div>
 
-<script src="netflix.js"></script>
-</body>
-<!--  refer to codepen sources -->
+      <span id="controlR" class="right-controls">
+        <button id="arrow-right">&gt;</button>
+      </span>
+
+      <h4>You mustn't be afraid to dream a little bigger, darling.</h4>
+      <p>
+        <a href="https://www.github.com/dokinqs">K a r e n &nbsp; Z h a o</a>
+      </p>
+
+    </div>
+
+    <script src="netflix.js"></script>
+  </body>
+
 </html>
